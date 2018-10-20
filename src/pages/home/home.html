@@ -1,14 +1,101 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Mis Discos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content paddingn style= background-color:#FFE1AE>
+
+<ion-card>
+  <ion-item style= "background-color: rgb(169,207, 255)">
+  <ion-col item-start>
+    <img (click)= "Ed_Imagen()" src="../assets/Ed_Al.jpeg">  
+  </ion-col>
+  <h2 (click)="Ed_Bio()"> Ed Sheeran</h2>
+  <p (click)= Ed_canciones()>Divide</p>
+  <p>2017</p>
+  <ion-row (click)= "Ed_res()">
+   <ion-icon name="star"></ion-icon>
+   <ion-icon name="star"></ion-icon>
+   <ion-icon name="star"></ion-icon>
+   <ion-icon name="star"></ion-icon>
+   <ion-icon name="star"></ion-icon>
+  </ion-row>
+  <ion-row>
+    <ion-icon name="play" style="color:maroon"></ion-icon>
+  </ion-row>
+  </ion-item>
+</ion-card>
+
+
+<ion-card>
+    <ion-item style= "background-color: #F5DCF9">
+    <ion-col item-start>
+      <img (click)= "Adele_Imagen()" src="../assets/Adele.png">  
+    </ion-col>
+    <h2 (click)="Adele_Bio()"> Adele</h2>
+    <p (click)= Adele_canciones()>21</p>
+    <p>2011</p>
+    <ion-row (click)= "Adele_res()">
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star-half"></ion-icon>
+    </ion-row>
+    <ion-row>
+      <ion-icon name="play" style="color:maroon"></ion-icon>
+    </ion-row>
+    </ion-item>
+  </ion-card>
+
+
+<ion-card>
+    <ion-item style= "background-color: rgb(241, 174, 167)">
+    <ion-col item-start>
+      <img (click)= "Shawn_Imagen()" src="../assets/Shawn_AL.jpg">  
+    </ion-col>
+    <h2 (click)="Shawn_Bio()"> Shawn Mendes</h2>
+    <p (click)= Shawn_canciones()>Illuminate</p>
+    <p>2016</p>
+    <ion-row (click)= "Shawn_res()">
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star-half"></ion-icon>
+     <ion-icon name="star-outline"></ion-icon>
+    </ion-row>
+    <ion-row>
+      <ion-icon name="play" style="color:maroon"></ion-icon>
+    </ion-row>
+    </ion-item>
+  </ion-card>
+
+
+  <ion-card>
+      <ion-item style= "background-color: rgb(206, 248, 166)">
+      <ion-col item-start>
+        <img (click)= "Kongos()" src="../assets/Kongos_AL.jpg">  
+      </ion-col>
+      <h2 (click)="Kongos_Bio()"> Kongos</h2>
+      <p (click)= Kongos_canciones()>Lunatic</p>
+      <p>2012</p>
+      <ion-row (click)= "Kongos_res()">
+       <ion-icon name="star"></ion-icon>
+       <ion-icon name="star"></ion-icon>
+       <ion-icon name="star"></ion-icon>
+       <ion-icon name="star"></ion-icon>
+       <ion-icon name="star-outline"></ion-icon>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="play" style="color:maroon"></ion-icon>
+      </ion-row>
+      </ion-item>
+    </ion-card>
+
+
+
+
 </ion-content>
