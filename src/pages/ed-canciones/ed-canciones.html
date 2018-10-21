@@ -7,12 +7,26 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Ed_canciones</ion-title>
+    <ion-title>Tracks</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content  style= background-color:#82CAFA>
+    
+    <ion-option *ngFor= " let e of edtracks" value= "{{e}}">
+    <ion-card  style="background-color:#CCFFFF; ">
+      <ion-card-content > 
+      {{e}} 
+    </ion-card-content>
+  </ion-card>
+    </ion-option>
+  
+   
+ 
+
+ 
+  
 
 </ion-content>
