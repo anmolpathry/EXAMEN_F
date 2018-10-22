@@ -7,12 +7,23 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Shawn_Canciones</ion-title>
+    <ion-title style= "background-color: rgb(241, 174, 167)">Tracks</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding style= "background-color: rgb(241, 174, 167)">
+
+  <ion-option *ngFor ="let s of shtracks" value={{s}}>
+  
+    <ion-card>
+   <ion-card-content style= "background-color: rgb(218, 158, 183)">
+     {{s}}
+   </ion-card-content>
+   </ion-card>
+
+  </ion-option>
+
 
 </ion-content>

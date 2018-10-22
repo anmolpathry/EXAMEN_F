@@ -7,12 +7,21 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Kongos_Canciones</ion-title>
+    <ion-title  style= "background-color: rgb(206, 248, 166)">Tracks</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding style= "background-color: rgb(206, 248, 166)">
+
+  <ion-option *ngFor ="let k of kotracks" value={{k}}>
+  
+    <ion-card>
+   <ion-card-content style= "background-color: rgb(253, 248, 166)">
+     {{k}}
+   </ion-card-content>
+   </ion-card>
+  </ion-option>
 
 </ion-content>
