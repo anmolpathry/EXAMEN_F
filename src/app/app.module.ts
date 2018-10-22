@@ -10,6 +10,10 @@ import { EdImagenPage } from '../pages/ed-imagen/ed-imagen';
 import { EdBioPage } from '../pages/ed-bio/ed-bio';
 import { EdCancionesPage } from '../pages/ed-canciones/ed-canciones';
 import { EdresPage } from '../pages/edres/edres';
+import { AdeleBioPage } from '../pages/adele-bio/adele-bio';
+import { AdeleImagenPage } from '../pages/adele-imagen/adele-imagen';
+import { AdeleCancionesPage } from '../pages/adele-canciones/adele-canciones';
+import { AdeleResPage } from '../pages/adele-res/adele-res';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,12 @@ import { EdresPage } from '../pages/edres/edres';
     EdImagenPage,
     EdBioPage,
     EdCancionesPage,
-    EdresPage
+    EdresPage,
+    AdeleImagenPage,
+    AdeleBioPage,
+    AdeleCancionesPage,
+    AdeleResPage
+
   ],
   imports: [
     BrowserModule,
@@ -31,7 +40,11 @@ import { EdresPage } from '../pages/edres/edres';
     EdImagenPage,
     EdBioPage,
     EdCancionesPage,
-    EdresPage 
+    EdresPage,
+    AdeleImagenPage,
+    AdeleBioPage,
+    AdeleCancionesPage,
+    AdeleResPage
   ],
   providers: [
     StatusBar,
