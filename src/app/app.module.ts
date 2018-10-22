@@ -14,6 +14,14 @@ import { AdeleBioPage } from '../pages/adele-bio/adele-bio';
 import { AdeleImagenPage } from '../pages/adele-imagen/adele-imagen';
 import { AdeleCancionesPage } from '../pages/adele-canciones/adele-canciones';
 import { AdeleResPage } from '../pages/adele-res/adele-res';
+import { ShawnImagenPage } from '../pages/shawn-imagen/shawn-imagen';
+import { ShawnBioPage } from '../pages/shawn-bio/shawn-bio';
+import { ShawnCancionesPage } from '../pages/shawn-canciones/shawn-canciones';
+import { ShawnResPage } from '../pages/shawn-res/shawn-res';
+import { KongosImagenPage } from '../pages/kongos-imagen/kongos-imagen';
+import { KongosBioPage } from '../pages/kongos-bio/kongos-bio';
+import { KongosCancionesPage } from '../pages/kongos-canciones/kongos-canciones';
+import { KongosResPage } from '../pages/kongos-res/kongos-res';
 
 @NgModule({
   declarations: [
@@ -26,7 +34,15 @@ import { AdeleResPage } from '../pages/adele-res/adele-res';
     AdeleImagenPage,
     AdeleBioPage,
     AdeleCancionesPage,
-    AdeleResPage
+    AdeleResPage,
+    ShawnImagenPage,
+    ShawnBioPage,
+    ShawnCancionesPage,
+    ShawnResPage,
+    KongosImagenPage,
+    KongosBioPage,
+    KongosCancionesPage,
+    KongosResPage
 
   ],
   imports: [
@@ -44,7 +60,15 @@ import { AdeleResPage } from '../pages/adele-res/adele-res';
     AdeleImagenPage,
     AdeleBioPage,
     AdeleCancionesPage,
-    AdeleResPage
+    AdeleResPage,
+    ShawnImagenPage,
+    ShawnBioPage,
+    ShawnCancionesPage,
+    ShawnResPage,
+    KongosImagenPage,
+    KongosBioPage,
+    KongosCancionesPage,
+    KongosResPage
   ],
   providers: [
     StatusBar,
